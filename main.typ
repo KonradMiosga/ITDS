@@ -15,8 +15,4 @@
 
 #include "Content/content.typ"
 
-#slide[
-  =
-  #set align(horizon + center)
-  #image("Images/mio-mensa-im-osten.png", width: 100%)
-]
+

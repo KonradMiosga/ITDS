@@ -147,6 +147,12 @@
   - BSI: [www.bsi.bund.de](https://www.bsi.bund.de)
   - EU Cyber Resilience Act
   - Shodan.io / Censys.io
-  - Newsletter *„Einfach • Cybersicher“*
+  - Newsletter „Einfach • Cybersicher“
   - Fachliteratur zu IoT-Security & Datenschutzrecht
+]
+
+#slide[
+  =
+  #set align(horizon + center)
+  #image("../Images/IoT_Kaffeemaschine.png", width: 90%)
 ]
