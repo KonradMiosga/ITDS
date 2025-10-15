@@ -1,5 +1,8 @@
-#include "agenda.typ"
+//#include "agenda.typ"
 
+#include "IoT_Slides.typ"
+
+/*
 #include "Chapters/organisation.typ"
 
 #include "Chapters/basic_concepts.typ"
@@ -15,3 +18,4 @@
 #include "Chapters/containerization.typ"
 
 #include "Chapters/git.typ"
+*/
