@@ -106,7 +106,7 @@
   #toolbox.register-section[Fallstudie]
   = ⚠️ Fallstudie: Sicherheitsvorfälle im IoT
   #set align(horizon)
-  - *Mirai-Botnetz (2016):*
+  - *Mirai-Botnetz (2016)#cite(<203628>):*
     - Angriff auf IoT-Geräte mit Standardpasswörtern
     - Aufbau eines globalen Botnetzes → DDoS-Angriffe
     - Millionen Geräte betroffen
@@ -149,6 +149,11 @@
   - Shodan.io / Censys.io
   - Newsletter „Einfach • Cybersicher“
   - Fachliteratur zu IoT-Security & Datenschutzrecht
+]
+
+#slide[
+#bibliography("biblio.bib", title: "Quellen")
+// #show bibliography: set heading(level: 1)
 ]
 
 #slide[
