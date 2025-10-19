@@ -141,7 +141,7 @@
 ]
 
 #slide[
-  #toolbox.register-section[Quellen]
+  // #toolbox.register-section[Quellen]
   = 📚 Quellen & Weiterführende Informationen
   #set align(horizon)
   - BSI: [www.bsi.bund.de](https://www.bsi.bund.de)
