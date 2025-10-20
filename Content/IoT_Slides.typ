@@ -143,7 +143,7 @@
   - Datenschutz & Sicherheit bleiben zentrale Herausforderungen
   - Gemeinsame Verantwortung von Nutzern, Herstellern & Gesetzgebern
 
-  🚀 *Zukunft:*
+  *Zukunft:*
   - Mehr Regulierung & sichere Standards
   - KI-basierte Überwachung von Netzwerken
   - Bewusster Umgang der Verbraucher mit IoT-Geräten
@@ -151,9 +151,9 @@
 
 #slide[
   // #toolbox.register-section[Quellen]
-  = Quellen & Weiterführende Informationen
+  = Weiterführende Informationen
   #set align(horizon)
-  - BSI: [www.bsi.bund.de](https://www.bsi.bund.de)
+  - BSI (https://www.bsi.bund.de)
   - EU Cyber Resilience Act
   - Shodan.io / Censys.io
   - Newsletter „Einfach • Cybersicher“
