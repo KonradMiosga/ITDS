@@ -106,12 +106,23 @@
   #toolbox.register-section[Fallstudie]
   = ⚠️ Fallstudie: Sicherheitsvorfälle im IoT
   #set align(horizon)
-  - *Mirai-Botnetz (2016)#cite(<203628>):*
+  - *Mirai-Botnetz (2016):*
     - Angriff auf IoT-Geräte mit Standardpasswörtern
     - Aufbau eines globalen Botnetzes → DDoS-Angriffe
     - Millionen Geräte betroffen
   - *Lehre:*
     - Jedes ungesicherte Gerät kann Teil eines Angriffs werden.
+]
+
+#slide[
+  = Mirai-Botnetz
+  #set align(horizon + center)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/mirai_victims.png"),
+    caption: cite(<203628>)
+  )
 ]
 
 #slide[
