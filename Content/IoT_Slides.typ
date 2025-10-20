@@ -16,37 +16,35 @@
 
 #slide[
   #toolbox.register-section[Einführung]
-  = 🌐 Einführung: Was ist das Internet der Dinge (IoT)?
+  = Einführung: Was ist das Internet der Dinge (IoT)?
   #set align(horizon)
   - Vernetzung physischer Geräte über das Internet
   - Geräte kommunizieren und tauschen Daten autonom aus
   - Ziel: Komfort, Effizienz, Automatisierung
-  - Beispiele:
-    - Smart Home (Licht, Heizung, Rollläden, Kühlschrank)
-    - Wearables (Smartwatch, Fitnessband)
-    - Smart City (Verkehrssteuerung, Beleuchtung)
-    - Industrie 4.0 (vernetzte Maschinen)
+
+  Zentrale Eigenschaft: Jedes Gerät ist ein „Mini-Computer“ – mit Datenzugang, Speicher und Netzwerkverbindung.
 ]
 
 #slide[
   #toolbox.register-section[Bestandteile]
-  = 🏠 Was ist alles im IoT versteckt?
+  = Beispiele für IoT-Geräte?
   #set align(horizon)
   - Smarthome:
     - Automatisierte Rollläden, Heizung, Türsteuerung
     - Sprachassistenten, Smart-TVs, Kühlschränke
   - Wearables & Smart Toys:
     - Sammeln Gesundheits- und Bewegungsdaten
-  - Smart City & Industrie 4.0:
-    - Sensoren zur Verkehrssteuerung, Produktionsüberwachung
-
-  💡 Zentrale Eigenschaft: Jedes Gerät ist ein „Mini-Computer“ – mit Datenzugang, Speicher und Netzwerkverbindung.
+  - Smart City & :
+    - Sensoren zur Verkehrssteuerung, Straßenbeleuchtung
+    - Öffentliche WLAN-Hotspots, Überwachungskameras
+  - Industrie 4.0:
+    - Vernetzte Maschinen, Produktionsüberwachung
 ]
 
 
 #slide[
   #toolbox.register-section[Sicherheit]
-  = 🔒 Sicherheit & Datenschutz im IoT
+  = Sicherheit & Datenschutz im IoT
   #set align(horizon)
   - Große Datenmengen → hohe Angriffsfläche
   - Fehlende oder schwache Verschlüsselung
@@ -54,12 +52,12 @@
   - Cloud-Abhängigkeit – Daten oft außerhalb der EU
   - Fehlende Updates und veraltete Firmware
 
-  📉 Folge: Geräte können übernommen, Daten ausgespäht oder Netzwerke kompromittiert werden.
+  Folge: Geräte können übernommen, Daten ausgespäht oder Netzwerke kompromittiert werden.
 ]
 
 #slide[
   #toolbox.register-section[Schwachstellen]
-  = ⚙️ Typische Schwachstellen und Angriffspunkte
+  = Typische Schwachstellen und Angriffspunkte
   #set align(horizon)
   - Standardpasswörter → Botnetze (z. B. Mirai)
   - Fehlende Updates → offene Sicherheitslücken
@@ -70,18 +68,18 @@
 
 #slide[
   #toolbox.register-section[Best Practices]
-  = 🧰 Best Practices zur Absicherung von IoT-Systemen
+  = Best Practices zur Absicherung von IoT-Systemen
   #set align(horizon)
-  ✅ *Vor dem Kauf prüfen:*
+  *Vor dem Kauf prüfen:*
   - Hersteller bietet regelmäßige Sicherheitsupdates
   - Unterstützt verschlüsselte Kommunikation (TLS)
 
-  ✅ *Einrichtung:*
+  *Einrichtung:*
   - Standardpasswörter ändern
   - Starke, individuelle Passwörter verwenden
   - Zwei-Faktor-Authentisierung aktivieren
 
-  ✅ *Betrieb:*
+  *Betrieb:*
   - Automatische Updates aktivieren
   - Geräte in separatem WLAN betreiben
   - UPnP deaktivieren, Firewall aktivieren
@@ -90,7 +88,7 @@
 
 #slide[
   #toolbox.register-section[Regulierung]
-  = 📜 Regulierung und rechtliche Grundlagen
+  = Regulierung und rechtliche Grundlagen
   #set align(horizon)
   - *DSGVO (Datenschutz-Grundverordnung):*
     - Datenschutz durch Technikgestaltung („Privacy by Design“)
@@ -104,7 +102,7 @@
 
 #slide[
   #toolbox.register-section[Fallstudie]
-  = ⚠️ Fallstudie: Sicherheitsvorfälle im IoT
+  = Fallstudie: Sicherheitsvorfälle im IoT
   #set align(horizon)
   - *Mirai-Botnetz (2016):*
     - Angriff auf IoT-Geräte mit Standardpasswörtern
@@ -127,19 +125,19 @@
 
 #slide[
   #toolbox.register-section[Suchmaschinen]
-  = 🔎 Vorstellung spezieller IoT-Suchmaschinen
+  = Vorstellung spezieller IoT-Suchmaschinen
   #set align(horizon)
   - *Shodan.io:*
     - Suchmaschine für mit dem Internet verbundene Geräte
     - Zeigt öffentlich erreichbare IoT-Geräte (z. B. Kameras)
   - *Censys.io:*
     - Scannt Geräte weltweit nach offenen Ports und Zertifikaten
-  💡 *Nützlich für Sicherheitsforschung, aber Risiko bei ungesicherten Geräten!*
+  *Nützlich für Sicherheitsforschung, aber Risiko bei ungesicherten Geräten!*
 ]
 
 #slide[
   #toolbox.register-section[Fazit]
-  = 💬 Fazit & Ausblick
+  = Fazit & Ausblick
   #set align(horizon)
   - IoT bringt Komfort, Effizienz und neue Geschäftsmodelle
   - Datenschutz & Sicherheit bleiben zentrale Herausforderungen
@@ -153,7 +151,7 @@
 
 #slide[
   // #toolbox.register-section[Quellen]
-  = 📚 Quellen & Weiterführende Informationen
+  = Quellen & Weiterführende Informationen
   #set align(horizon)
   - BSI: [www.bsi.bund.de](https://www.bsi.bund.de)
   - EU Cyber Resilience Act
