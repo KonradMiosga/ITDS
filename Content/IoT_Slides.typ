@@ -124,6 +124,15 @@
 ]
 
 #slide[
+  #set align(horizon)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/Mirai_process.png"),
+    caption: cite(<203628>)
+  )
+]
+#slide[
   #toolbox.register-section[Suchmaschinen]
   = Vorstellung spezieller IoT-Suchmaschinen
   #set align(horizon)
