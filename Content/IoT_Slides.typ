@@ -44,26 +44,17 @@
 
 #slide[
   #toolbox.register-section[Sicherheit]
-  = Sicherheit & Datenschutz im IoT
+  = Typische Schwachstellen und Angriffspunkte
   #set align(horizon)
   - Große Datenmengen → hohe Angriffsfläche
   - Fehlende oder schwache Verschlüsselung
-  - Standardpasswörter & ungesicherte Authentifizierung
-  - Cloud-Abhängigkeit – Daten oft außerhalb der EU
-  - Fehlende Updates und veraltete Firmware
-
-  Folge: Geräte können übernommen, Daten ausgespäht oder Netzwerke kompromittiert werden.
-]
-
-#slide[
-  #toolbox.register-section[Schwachstellen]
-  = Typische Schwachstellen und Angriffspunkte
-  #set align(horizon)
-  - Standardpasswörter → Botnetze (z. B. Mirai)
-  - Fehlende Updates → offene Sicherheitslücken
-  - Unsichere Cloud-Verbindungen → Datenabfluss
+  - Standardpasswörter & ungesicherte Authentifizierung → Botnetze (z. B. Mirai)
   - Physischer Zugriff → Manipulation
   - Keine Netzwerksegmentierung → Schadsoftware breitet sich im Heimnetz aus
+  - Cloud-Abhängigkeit – Daten oft außerhalb der EU
+  - Fehlende Updates und veraltete Firmware → offene Sicherheitslücken
+
+  Folge: Geräte können übernommen, Daten ausgespäht oder Netzwerke kompromittiert werden.
 ]
 
 #slide[
