@@ -21,7 +21,10 @@
   - Vernetzung physischer Geräte über das Internet
   - Geräte kommunizieren und tauschen Daten autonom aus
   - Ziel: Komfort, Effizienz, Automatisierung
-
+  #figure(
+    numbering: none,
+    image("../Images/Smart_Netze.png", width: 50%),
+  )
   Zentrale Eigenschaft: Jedes Gerät ist ein „Mini-Computer“ – mit Datenzugang, Speicher und Netzwerkverbindung.
 ]
 
