@@ -102,6 +102,33 @@
 
 #slide[
   #toolbox.register-section[Fallstudie]
+  = Fallstudie: Datenschutzrisiken bei smarten Staubsaugern (Roomba)
+  #set align(horizon)
+  - *Vorfall (2022):*
+    - Testgeräte von Roomba machten Fotos während der Reinigung
+    - Bilder wurden an externe Datenannotationsfirmen weitergeleitet
+    - Einige Aufnahmen (u. a. von Personen in privaten Räumen) landeten über Subunternehmer in sozialen Medien (z. B. Facebook)
+  - *Ursache:*
+    - Verwendung von Geräten in Beta-Programmen mit erweiterten Datenerfassungsrechten
+    - Fehlende Kontrolle über Weitergabe durch Drittanbieter
+  - *Lehre:*
+    - Smarte Geräte können unerwartet sensible Daten sammeln
+    - Datenschutzprüfungen und Rechteverwaltung sind entscheidend vor Nutzung oder Testteilnahme
+]
+
+#slide[
+  = Roomba Datenschutzvorfall
+  #set align(horizon + center)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/roomba.png"),
+    caption: cite(<102>)
+  )
+]
+
+#slide[
+  #toolbox.register-section[Fallstudie]
   = Fallstudie: Sicherheitsvorfälle im IoT
   #set align(horizon)
   - *Mirai-Botnetz (2016):*
