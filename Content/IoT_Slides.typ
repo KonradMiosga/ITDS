@@ -95,7 +95,7 @@
 ]
 
 #slide[
-  #toolbox.register-section[Fallstudie]
+  #toolbox.register-section[Fallstudien]
   = Fallstudie: Datenschutzrisiken bei smarten Staubsaugern (Roomba)
   #set align(horizon)
   - *Vorfall (2022):*
@@ -117,15 +117,48 @@
   #figure(
     numbering: none,
     image("../Images/roomba.png"),
-    caption: cite(<102>)
+    caption: cite(<102>),
+  )
+]
+
+
+#slide[
+  = Mirai-Botnet
+  #set align(horizon + center)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/mirai_victims.png"),
+    caption: cite(<203628>),
   )
 ]
 
 #slide[
-  #toolbox.register-section[Fallstudie]
-  = Fallstudie: Sicherheitsvorfälle im IoT
+  = Mirai-Botnet
+  #set align(horizon + center)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/KOS_mirai.png", width: 80%),
+    caption: cite(<103>),
+  )
+]
+
+#slide[
+  = Mirai-Botnet
+  #set align(horizon + center)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/Mirai_dyn.png"),
+    caption: cite(<104>),
+  )
+]
+
+#slide[
+  = Mirai-Botnet
   #set align(horizon)
-  - *Mirai-Botnetz (2016):*
+  - *Vorfall (2016):*
     - Angriff auf IoT-Geräte mit Standardpasswörtern
     - Aufbau eines globalen Botnetzes → DDoS-Angriffe
     - Millionen Geräte betroffen
@@ -134,23 +167,13 @@
 ]
 
 #slide[
-  = Mirai-Botnetz
-  #set align(horizon + center)
-  #show figure: set text(size: 10pt)
-  #figure(
-    numbering: none,
-    image("../Images/mirai_victims.png"),
-    caption: cite(<203628>)
-  )
-]
-
-#slide[
+  = Mirai-Botnet
   #set align(horizon)
   #show figure: set text(size: 10pt)
   #figure(
     numbering: none,
-    image("../Images/Mirai_process.png"),
-    caption: cite(<203628>)
+    image("../Images/Mirai_process.png", width: 67%),
+    caption: cite(<203628>),
   )
 ]
 #slide[
@@ -191,8 +214,8 @@
 ]
 
 #slide[
-#bibliography("biblio.bib", title: "Quellen")
-// #show bibliography: set heading(level: 1)
+  #bibliography("biblio.bib", title: "Quellen")
+  // #show bibliography: set heading(level: 1)
 ]
 
 #slide[
