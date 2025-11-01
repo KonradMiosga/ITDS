@@ -37,7 +37,7 @@
     - Sprachassistenten, Smart-TVs, Kühlschränke
   - Wearables & Smart Toys:
     - Sammeln Gesundheits- und Bewegungsdaten
-  - Smart City & :
+  - Smart City:
     - Sensoren zur Verkehrssteuerung, Straßenbeleuchtung
     - Öffentliche WLAN-Hotspots, Überwachungskameras
   - Industrie 4.0:
