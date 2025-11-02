@@ -14,5 +14,3 @@
 #show: setup
 
 #include "Content/content.typ"
-
-
