@@ -93,7 +93,7 @@
     - Kampagne „Einfach • Cybersicher“
     - Empfehlungen für Verbraucher & Unternehmen
   - *ISO/IEC 27400*
-    - Cybersecurity - IoT security and privacy - Guidlines
+    - Cybersecurity - IoT security and privacy - Guidelines
 ]
 
 #slide[
