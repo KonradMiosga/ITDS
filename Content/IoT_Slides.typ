@@ -92,6 +92,8 @@
   - *BSI (Bundesamt für Sicherheit in der Informationstechnik):*
     - Kampagne „Einfach • Cybersicher“
     - Empfehlungen für Verbraucher & Unternehmen
+  - *ISO/IEC 27400*
+    - Cybersecurity - IoT security and privacy - Guidlines
 ]
 
 #slide[
@@ -158,24 +160,11 @@
 #slide[
   = Mirai-Botnet
   #set align(horizon)
-  #show figure: set text(size: 10pt)
-  #figure(
-    numbering: none,
-    image("../Images/Mirai_process.png", width: 67%),
-    caption: cite(<203628>),
-  )
-]
-
-#slide[
-  = Mirai-Botnet
-  #set align(horizon)
   == Krebs on Security
 
-  - Am 20. September 2016 wurde die Webseite von Krebs on Security massiv angegriffen
+  - Am 21. September 2016 wurde die Webseite von Krebs on Security massiv angegriffen
   - Der Angriff erreichte Spitzenwerte von etwa 620 Gbps
   - Laut den Forschern von F5 Labs und anderen waren mehrere hunderttausend IoT-Geräte beteiligt, vermutlich mit Standard-Zugangsdaten und offenen Telnet-/SSH-Ports.
-
-
 ]
 
 #slide[
@@ -195,6 +184,28 @@
   - Laut Dyn wurden mehrere Millionen IP-Adressen beobachtet, die beteiligt waren.
   - Der Angriffs­verkehr war an manchen Stellen gemeldet mit Spitzenwerten im Bereich von hunderten Gbps bis über 1 Tbps (je nach Schätzung).
   - Der Angriff führte dazu, dass populäre Websites wie Twitter, GitHub, Netflix, Reddit, Airbnb und viele andere beeinträchtigt wurden.
+]
+
+#slide[
+  = Mirai-Botnet
+  #set align(horizon + center)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/mirai_timeline.png"),
+    caption: cite(<203628>),
+  )
+]
+
+#slide[
+  = Mirai-Botnet
+  #set align(horizon)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/Mirai_process.png", width: 67%),
+    caption: cite(<203628>),
+  )
 ]
 
 #slide[
