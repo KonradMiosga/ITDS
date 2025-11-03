@@ -209,6 +209,16 @@
 ]
 
 #slide[
+  = Mirai-Botnet
+  #set align(horizon)
+  #show figure: set text(size: 10pt)
+  #figure(
+    numbering: none,
+    image("../Images/mirai_guilty.png", width: 67%),
+    caption: cite(<105>),
+  )
+]
+#slide[
   #toolbox.register-section[Suchmaschinen]
   = Vorstellung spezieller IoT-Suchmaschinen
   #set align(horizon)
@@ -246,8 +256,8 @@
 ]
 
 #slide[
+  #set text(size: 17pt)
   #bibliography("biblio.bib", title: "Quellen")
-  // #show bibliography: set heading(level: 1)
 ]
 
 #slide[
